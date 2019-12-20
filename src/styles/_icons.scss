@@ -1,0 +1,50 @@
+.fa, .fas, .far {
+    padding: 5px;
+  }
+
+.fa-bars {
+    font-size: 18pt;
+    cursor: pointer;
+  }
+
+  .fa-shopping-cart {
+    font-size: 18pt;
+    &:hover{
+        animation: rotate .75s ease-in-out;
+    }
+  }
+
+  @keyframes rotate{
+    0%{
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .user-feedback{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2px;
+  }
+
+  .right-footer div {
+    margin: 5px;
+    font-size: 20px;
+  }
+  
+  .right-footer div:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  .left-footer div {
+     margin: 5px;
+    font-size: 20px;
+  }
+  .left-footer div:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }

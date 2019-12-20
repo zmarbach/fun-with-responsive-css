@@ -1,0 +1,43 @@
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .product{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-side{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bowtie {
+    height: 150px;
+    width: auto;
+  }
+
+  .color-circles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px 0;
+  }
+  
+  .circle{
+    height: 15px;
+    width: auto;
+    border: 2px black solid;
+     border-radius: 100%;
+  }
+  
+  .right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+  }
+  
+  

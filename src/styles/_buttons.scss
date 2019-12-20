@@ -1,0 +1,13 @@
+.product-details {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    width: 75px;
+    cursor: pointer;
+  }
+  
+  .product-details:hover {
+    border-radius: 8px;
+    transform: scale(1.15);
+    box-shadow: 2px 2px #888888;
+  }

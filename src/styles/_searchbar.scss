@@ -1,0 +1,17 @@
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 15px 0px 0px 0px;
+  }
+  
+  .search-box{
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .filter{
+    border-radius: 4px;
+  }

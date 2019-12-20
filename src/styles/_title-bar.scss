@@ -1,0 +1,11 @@
+/* //define what children of topbar will do (in this case there are 3 main areas that are left to right) */
+.topbar{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+  }
+
+ 

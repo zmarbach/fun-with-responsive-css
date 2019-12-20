@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import {faFacebook} from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'responsive-css-stuff';
+  faBars = faBars;
+  faFacebook = faFacebook;
+  
 }

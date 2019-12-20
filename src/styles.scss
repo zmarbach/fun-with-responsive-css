@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'styles/reset';
+@import 'styles/media-query-768px';
+@import 'styles/media-query-1200px';
+@import 'styles/buttons';
+@import 'styles/icons';
+@import 'styles/footer';
+@import 'styles/title-bar';
+@import 'styles/nav-bar';
+@import 'styles/searchbar';
+@import 'styles/modals';
+@import 'styles/product-info';
+@import 'styles/typography';
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* //define what children of wrapper will do (in this case there are 2 main areas that are up and down) */
+  .wrapper  {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
